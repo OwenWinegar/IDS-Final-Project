@@ -1,3 +1,5 @@
+# Code used to conduct ping sweep and syn scans on all ports from 172.125.125.0/24
+
 #!/usr/bin/python3
 from scapy.all import *
 
