@@ -1,0 +1,31 @@
+#snort alert logs from when the ping sweep and syn scans were run
+05/10-15:52:41.398308 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.232
+05/10-15:52:43.978014 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.233
+05/10-15:52:46.585089 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.234
+05/10-15:52:49.165815 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.235
+05/10-15:52:51.765910 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.236
+05/10-15:52:54.341120 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.237
+05/10-15:52:56.921444 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.238
+05/10-15:52:59.500180 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.239
+05/10-15:53:02.069025 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.240
+05/10-15:53:04.657587 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.241
+05/10-15:53:07.248995 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.242
+05/10-15:53:09.828269 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.243
+05/10-15:53:12.400886 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.244
+05/10-15:53:14.984548 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.245
+05/10-15:53:17.580275 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.246
+05/10-15:53:20.172025 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.247
+05/10-15:53:22.763590 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.248
+05/10-15:53:25.355540 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.249
+05/10-15:53:27.946779 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.250
+05/10-15:53:30.518916 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.251
+05/10-15:53:33.119079 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.252
+05/10-15:53:35.710376 [**] [1:469:3] ICMP PING NMAP [**] [Classification: Attempted Information Leak] [Priority: 2] {ICMP} 172.16.125.129 -> 172.16.125.253
+05/10-15:53:37.027868 [**] [1:1000006:1] possible tcp connect scan at ssh port [**] [Priority: 0] {TCP} 172.16.125.129:20 -> 172.16.125.131:22
+05/10-15:53:37.027868 [**] [1:503:7] MISC Source Port 20 to <1024 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.125.129:20 -> 172.16.125.131:22
+05/10-16:03:14.313105 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IGMP} 0.0.0.0 -> 224.0.0.22
+05/10-16:03:14.782844 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:68 -> 255.255.255.255:67
+05/10-16:03:14.795697 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::16
+05/10-16:03:14.952039 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::16
+05/10-16:03:15.531172 [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ffcd:9967
+05/10-16:03:46.514331 [**] [1:1000006:1] possible tcp connect scan at ssh port [**] [Priority: 0] {TCP} 172.16.125.130:50664 -> 172.16.125.131:22
