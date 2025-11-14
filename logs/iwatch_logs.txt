@@ -1,0 +1,37 @@
+# text from logs to be added shortly
+[10/May/2025 15:43:54] IN_ISDIR,IN_OPEN /home/Bob/important
+[10/May/2025 15:43:54] IN_ISDIR,IN_ACCESS /home/Bob/important
+[10/May/2025 15:43:54] IN_ISDIR,IN_CLOSE_NOWRITE /home/Bob/important
+[10/May/2025 16:15:52] IN_CREATE /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:15:52] IN_OPEN /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:15:52] IN_CLOSE_WRITE /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:15:52] * /home/Bob/important/.secret.txt.swp is closed
+[10/May/2025 16:15:52] IN_OPEN /home/Bob/important/secret.txt
+[10/May/2025 16:15:52] IN_ACCESS /home/Bob/important/secret.txt
+[10/May/2025 16:15:52] IN_CLOSE_NOWRITE /home/Bob/important/secret.txt
+[10/May/2025 16:16:00] IN_MODIFY /home/Bob/important/secret.txt
+[10/May/2025 16:16:00] IN_OPEN /home/Bob/important/secret.txt
+[10/May/2025 16:16:00] IN_CLOSE_WRITE /home/Bob/important/secret.txt
+[10/May/2025 16:16:00] * /home/Bob/important/secret.txt is closed
+[10/May/2025 16:16:12] IN_OPEN /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:16:12] IN_CLOSE_NOWRITE /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:16:12] IN_OPEN /home/Bob/important/secret.txt
+[10/May/2025 16:16:12] IN_CLOSE_NOWRITE /home/Bob/important/secret.txt
+[10/May/2025 16:16:58] IN_OPEN /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:16:58] IN_CLOSE_NOWRITE /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:17:04] IN_MODIFY /home/Bob/important/secret.txt
+[10/May/2025 16:17:04] IN_OPEN /home/Bob/important/secret.txt
+[10/May/2025 16:17:04] IN_CLOSE_WRITE /home/Bob/important/secret.txt
+[10/May/2025 16:17:04] * /home/Bob/important/secret.txt is closed
+[10/May/2025 16:17:29] IN_OPEN /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:17:29] IN_CLOSE_NOWRITE /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:17:29] IN_OPEN /home/Bob/important/secret.txt
+[10/May/2025 16:17:29] IN_CLOSE_NOWRITE /home/Bob/important/secret.txt
+[10/May/2025 16:17:35] IN_MODIFY /home/Bob/important/secret.txt
+[10/May/2025 16:17:35] IN_OPEN /home/Bob/important/secret.txt
+[10/May/2025 16:17:35] IN_CLOSE_WRITE /home/Bob/important/secret.txt
+[10/May/2025 16:17:35] * /home/Bob/important/secret.txt is closed
+[10/May/2025 16:30:13] IN_OPEN /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:30:13] IN_CLOSE_NOWRITE /home/Bob/important/.secret.txt.swp
+[10/May/2025 16:30:13] IN_OPEN /home/Bob/important/secret.txt
+[10/May/2025 16:30:13] IN_CLOSE_NOWRITE /home/Bob/important/secret.txt
