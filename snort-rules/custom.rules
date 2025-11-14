@@ -2,3 +2,8 @@
 #TCP Connect, SYN, an XMAS (with URG, PSH, and FIN flags)
 
 alert tcp any any > any any 22(msg:"possible tcp connect scan at ssh port";flags:S+;sid:1000006;rev:1;)
+
+#added a rule that allowed me to detect ping sweeps and TCP Connect scans
+
+alert icmp any any > any any 22(msg:"possible ping sweep";
+itype:8;threshold:both,track-by-source;count:10;seconds:5;sid:1000005;rev:1;)
