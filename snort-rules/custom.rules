@@ -1,0 +1,4 @@
+#add rules to the local.rules file to raise an alert for the following TCP scanning attempts:
+#TCP Connect, SYN, an XMAS (with URG, PSH, and FIN flags)
+
+alert tcp any any > any any 22(msg:"possible tcp connect scan at ssh port";flags:S+;sid:1000006;rev:1;)
